@@ -1,0 +1,636 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat";
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 90%;
+    height: 70px;
+  
+
+ }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px ;
+    font-size: 24px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.btnlogin{
+    background-color: #204e51;
+    font-size: 20px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-right: 30px;
+}
+
+
+.btnsing{
+    background-color:transparent;
+    font-size: 20px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 8px;
+    border: 3px solid  #204e51;
+
+}
+#main{
+    /* text-align: center; */
+    height: auto;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(https://img.freepik.com/free-photo/cows-eating-lush-grass-green-field-front-fuji-mountain-japan_335224-36.jpg?ga=GA1.1.1850580314.1745321827&semt=ais_hybrid&w=740);
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%   550px;
+   
+    
+}
+#main .main-content{
+    text-align: center;
+
+    
+}
+
+
+
+#main h1{
+    font-size: 100px;
+    margin-top: 10px;
+    color: white;
+}
+#main p{
+    color: white;
+    margin-bottom: 40px;
+}
+#bntmore{
+    border: 2px solid white;
+    color: aliceblue;
+}
+#our h2{
+    height: 500px;
+color: #204e51;
+margin-left: 30px;
+margin-top: 50px;
+font-size: 50;
+}
+#our p{
+    width: 500px;
+  position: relative;
+}
+/* div adminka  */
+.onana-content{
+    display: flex;
+    position: relative;
+
+}
+/* font ee habeenaysay */
+.sub-content{
+    color: #204e51;
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: 40px;
+    
+}
+.sub-content p{
+    color:black ;
+    width: 600px;
+}
+.leader-content img{
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 200px;
+    border-radius: 20px;
+
+}
+.onana-content h1{
+    color: black;
+    font-size: 40px;
+}
+
+/* end center text and img */
+
+
+/* start box-shadow */
+#main .servise-content {
+    color: #204e51;
+   text-align: center;
+   margin-top: 50px;
+}
+.baana-box{
+    background-color:whitesmoke;
+    border: none;
+    margin: 5%;
+    padding: 5%;
+    width: 90px;
+    height: 12%;
+    border-radius: 9%;
+    /* box-shadow: 30px 20px 20px rgb(220, 215, 215); */
+    box-shadow: 20px 10px 10px #ede7e7;
+}
+.baana-box p{
+    color: #204e51;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+
+}
+.baana-box i{
+    font-size: 75px;
+   position: relative;
+   bottom: 70px;
+}
+.box-shodow{
+    display: flex;
+    justify-content: space-around;
+}
+.leader-content h3{
+    color:wheat;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 3%;
+    position:absolute;
+  bottom: 30px;
+
+
+
+}
+/* start our service */
+.service-title h4{
+   color: #204e51;
+    font-size: 100px;
+}
+.service-title {
+    text-align: center
+}
+.service-title{
+    text-align: center;
+
+    margin-top: 60px;
+}
+.kaka-sup{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.services{
+    width: 250px;
+    height: 200px;
+    background-color:white;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    box-shadow: 0px 6px 30px rgb(125, 117, 117);
+    border-radius: 10px;
+}
+.services img{
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+.services h5{
+color: #204e51;
+position: relative;
+top: 40px;
+left: 50px;
+
+  
+}
+
+/*   <!-- page box-shodow -->*/
+.Featured-rice{
+    color: #204e51;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/* box-shodow */
+.saka-black{
+    width: 250px;
+    height: 380px;
+    background-color:white;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    box-shadow: 0px 6px 30px rgb(125, 117, 117);
+    border-radius: 10px
+}
+.geedi-pan{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 0px;
+}
+.saka-black img{
+    width: 150px;
+    height:150 ;
+    border-radius: 25px ;
+    margin: 30px;
+  position: relative;
+  left: 15px;
+ bottom: 15px;
+}
+.saka-black h4{
+    text-align: center;
+    color: #204e51;
+}
+.saka-black h5{
+    color: grey;
+    text-align: center;
+  position: relative;
+top: 50px;
+width: 200px;
+left: 25px;
+}
+/* page 5 */
+.page-admin{
+    font-size: 50px;
+    margin-bottom: 20px;
+    width: 800px;
+    font-family: "Montserrat";
+ position: relative;
+ top: 80px;
+ left: 15%;
+ color:white;
+
+
+
+}
+.page-5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(tree.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    height: 500px;
+    margin-bottom: 40px;
+
+}
+.page-admin h3{
+    margin-bottom: 10%;
+}
+
+/* page 6 */
+
+.Benefits-our{
+   width: 600px;
+   height: 500px;
+   margin: 90px;
+
+}
+.Benefits-our h3{
+    font-size: 80px;
+    color: #204e51;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+}
+#page{
+    color: gray;
+    font-size: 35px;
+  
+}
+/* page part -2 */
+.part-2{
+   width: 450px;
+   height: 600px;
+   background-color: #204e51;
+   border-radius: 10px;
+   margin-top: 5%;
+   padding-top: 30px;
+   padding-left: 50px;
+}
+/* admin page 6 */
+.page-6{
+    display: flex;
+    justify-content: space-around;
+}
+/* icons soving */
+.page-part2 img{
+    display: flex;
+    flex-direction: column;
+   margin: 10px;
+ background-color: #174346;
+ padding: 15px;
+ border-radius: 50px;
+}
+.page-part2 h4{
+    text-align: center;
+    font-size: 30px;
+  position: relative;
+bottom: 85px;
+left: 50px;
+color: white;
+
+}
+.page-part2 h5{
+    text-align: center;
+    font-size: 10px;
+  position: relative;
+bottom: 65px;
+left: 50px;
+color: white;
+}
+
+/* page -7 */
+.page-7{
+    text-align: center;
+    color: #204e51;
+    margin-top: 200px;
+   margin-bottom: 160px;
+
+
+}
+.page-7 div{
+    font-size: 90px;
+    font-family: "Montserrat";
+
+}
+.page-7 h5{
+    color: gray;
+    font-size: 20px;
+}
+/* page-7 */
+.admin-green{
+    width: 1010;
+height: 437;
+margin-bottom: 100px;
+position: relative;
+top: 5px;
+left: 15%;
+border-radius: 20px;
+background-color: #174346;
+}
+.image-box img{
+    width: 220px;
+    height: 220;
+    border-radius: 30px;
+    /* margin: 80px; */
+    position: relative;
+    left: 100;
+    top: 100;
+
+
+}
+.admin-green{
+    display: flex;
+    
+}
+.start-box{
+    margin: 200px;
+    position: relative;
+    bottom: 85;
+}
+.start-box i{
+    margin-bottom: 20px;
+    color: rgba(255, 190, 64, 1);
+    text-decoration: none;
+    margin-right: 15;
+    
+}
+.start-box h3{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.start-box h5{
+    color:white;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.start-box h4{
+    color: white;
+    font-size: 20;
+    font-weight: normal;
+}
+
+/* page  8  */
+
+.page-8{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.page-8 h3{
+    font-size: 60;
+    color: #204e51;
+}
+.page-8 h5{
+   font-weight: normal;
+   color: gray;
+   width: 300;
+   margin-left: 615;
+   
+}
+
+.img-admin{
+    display: flex;
+    justify-content: space-around;
+    margin: 100;
+    margin-right: -30;
+}
+.Vector img{
+    width: 400;
+    height: 472;
+    border-radius: 30px;
+    margin-left: 20
+    ;
+}
+.greener-45 h3{
+    color: #204e51;
+    margin-top: 20;
+    margin-bottom: 10;
+    font-weight: bold;
+    font-size: 30;
+    
+}
+.greener-45 h5{
+    color: grey;
+    font-weight: normal;
+    font-size: 30;
+    margin-bottom: 20;
+    position: relative;
+    
+}
+.error-2 img{
+    margin-left: 65;
+}
+.greener-455 h3{
+    color: #204e51;
+    margin-top: 20;
+    margin-bottom: 10;
+    font-weight: bold;
+    font-size: 30; 
+     position: relative;
+    left: 60;
+}
+.greener-455 h5{
+    color: grey;
+    font-weight: normal;
+    font-size: 30;
+    margin-bottom: 20;
+    position: relative;
+    left: 60;
+    
+}
+.greener-456 h3{
+    color: #204e51;
+    margin-top: 20;
+    margin-bottom: 10;
+    font-weight: bold;
+    font-size: 30; 
+     position: relative;
+    left: 20;
+}
+.greener-456 h5{
+    color: grey;
+    font-weight: normal;
+    font-size: 30;
+    margin-bottom: 20;
+    position: relative;
+    left: 20;
+}
+.greener-456 a{
+    position: relative;
+    left: 22;
+}
+.greener-455 a{
+    position: relative;
+    left: 60;
+}
+.footer-1{
+    /* width: 500px; */
+    /* height: 300; */
+    background-color: #204e51;
+    width: 1600;
+height: 586;
+top: 7175px;
+left: -19px;
+
+}
+
+/* page-9 */
+
+.child-footer{
+    /* margin: 200px; */
+    /* color: white; */
+    position: relative;
+    top: 200px;
+    left: 180;
+    
+}
+.child-footer h3{
+    font-weight: bold;
+    font-size: 30;
+    margin-bottom: 20;
+    color: white;
+}
+.child-footer h5{
+    color: rgb(195, 190, 190);
+    font-weight: normal;
+    font-size: 20;
+    margin-bottom: 20px;
+
+
+}
+
+.child-footer i{
+    color: white;
+    margin-top: 20;
+    font-size: 30;
+    text-decoration: none;
+    margin-right: 20;
+    /* background-color: #174346; */
+    padding: 10;
+    border-radius: 30px;
+}
+.youtube i{
+    color: red;
+    background-color: white;
+}
+.tiktok i{
+    color: black;
+    background-color: white;
+}
+.facebook i{
+    color: blue;
+    background-color: white;
+}
+.Google i{
+    color: rgb(207, 116, 116);
+    background-color: white;
+}
+
+/* admin work */
+.footer-1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.child-2{
+    margin: 200;
+    color: white;
+   position: relative
+   ;
+   left: 300;
+}
+.child-2 ul{
+    line-height: 2.5;
+    font-weight: normal;
+    color: rgb(208, 203, 203);
+    
+    list-style: none;
+
+}
+.child-3{
+    margin: 200;
+    color: white;
+}
+.child-3 ul{
+    line-height: 2.5;
+    font-weight: normal;
+    color: rgb(208, 203, 203);
+    
+    list-style: none;
+}
+
+
+
+
+
+/* end  many days are wringing*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
